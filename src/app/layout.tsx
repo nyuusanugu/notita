@@ -16,6 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link
+  rel="stylesheet"
+  href="https://unpkg.com/react-quill@1.3.3/dist/quill.snow.css"
+/>
       <body className={inter.className}>{children}</body>
     </html>
   );
